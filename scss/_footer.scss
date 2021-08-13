@@ -1,0 +1,19 @@
+footer{
+    text-align: center;
+    padding-top: 134px;
+    
+    ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 15px 28px;
+        i{
+            font-size: 30px;
+        }
+    }
+    p{
+        color: #21243D;
+        font-size: 14px;
+        font-family: $font-family-heebo;
+        font-weight: 400;
+    }
+}

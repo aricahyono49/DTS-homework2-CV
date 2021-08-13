@@ -1,0 +1,40 @@
+$font-title-caption:  44px;
+$color-title-caption : #21243D;
+$font-family-heebo : 'Heebo', sans-serif;
+.jumbotron{
+    display: flex;
+    padding: 0 146px 60px;
+
+    .jumbotron-img{
+        flex: 1;
+        text-align: center;
+        img{
+            border-radius: 100%;
+            width: 243px;
+            height: 243px;
+            box-shadow: -4px 10px 1px #e0e0e0;
+        }
+    }
+    .jumbotron-caption{
+        flex: 2;
+        h1{
+            color: #21243D;
+            font-weight: bold;
+            font-size: $font-title-caption;
+            margin-top: 12px;
+            font-family: $font-family-heebo;
+        }
+        
+        h2{
+            color: #21243D;
+            font-weight: bold;
+            font-size: $font-title-caption;
+            font-family: $font-family-heebo;
+        }
+        p{
+            margin-top: 16px;
+            padding-right: 10%;
+            font-family: $font-family-heebo;
+        }
+    }
+}
