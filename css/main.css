@@ -84,6 +84,10 @@ main {
   font-size: 16px;
 }
 
+.personal-information .contact ul li p i {
+  width: 22px;
+}
+
 .personal-information .university-h2, .personal-information .education .university h2,
 .personal-information .education .senior_high_school h2,
 .personal-information .education .junior_high_school h2 {
