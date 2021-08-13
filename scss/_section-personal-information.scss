@@ -4,7 +4,6 @@ $font-family-inter : 'Inter', sans-serif;
       color: #136223;
       font-size: 18px;
       font-family: $font-family-inter;
-      margin-bottom: 16px;
 }
 
 .personal-information{
@@ -16,6 +15,7 @@ $font-family-inter : 'Inter', sans-serif;
         flex: 1;
         h1{
           @extend .h1-title;
+           margin-bottom: 16px;
          
         }
          ul li {
@@ -52,6 +52,7 @@ $font-family-inter : 'Inter', sans-serif;
         flex: 1;
         h1 {
             @extend .h1-title;
+             margin-bottom: 16px;
         }
         .university h2,
         .senior_high_school h2,

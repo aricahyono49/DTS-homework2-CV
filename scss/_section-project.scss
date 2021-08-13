@@ -1,0 +1,50 @@
+.project{
+    padding: 30px 146px 0;
+    ul li{
+        list-style: none;
+        display: flex;
+        padding: 30px 0;
+        border-bottom: 1px solid #E0E0E0;
+    }
+    h1{
+        @extend .h1-title;
+    }
+}
+
+.project-img{
+    margin-right: 20px;
+}
+.project-description{
+    h1{
+        font-size: 30px;
+        font-family: $font-family-heebo;
+        color: #21243D;
+        text-transform: capitalize;
+    }
+    h2{
+        .year{
+            font-family: $font-family-heebo;
+            font-weight: 700;
+            font-size: 18px;
+            color: #FFFFFF;
+            background-color: #142850;
+            border-radius: 50px;
+            padding: 0 10px;
+            margin-right: 16px;
+        }
+        .programming-language {
+            color: #8695A4;
+            font-size: 20px;
+            font-family: $font-family-heebo;
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+    }
+    p{
+        font-size: 16px;
+        font-family: $font-family-heebo;
+        color: #21243D;
+        font-weight: 400;
+        text-align: justify;
+    }
+}
