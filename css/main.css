@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Inter:wght@400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 208px 0px 58px;
+  text-align: justify;
+}
+
+img {
+  object-fit: cover;
+}
+
+.jumbotron {
+  display: flex;
+  padding: 0 146px 60px;
+}
+
+.jumbotron .jumbotron-img {
+  flex: 1;
+  text-align: center;
+}
+
+.jumbotron .jumbotron-img img {
+  border-radius: 100%;
+  width: 243px;
+  height: 243px;
+  box-shadow: -4px 10px 1px #e0e0e0;
+}
+
+.jumbotron .jumbotron-caption {
+  flex: 2;
+}
+
+.jumbotron .jumbotron-caption h1 {
+  color: #21243D;
+  font-weight: bold;
+  font-size: 44px;
+  margin-top: 12px;
+  font-family: "Heebo", sans-serif;
+}
+
+.jumbotron .jumbotron-caption h2 {
+  color: #21243D;
+  font-weight: bold;
+  font-size: 44px;
+  font-family: "Heebo", sans-serif;
+}
+
+.jumbotron .jumbotron-caption p {
+  margin-top: 16px;
+  padding-right: 10%;
+  font-family: "Heebo", sans-serif;
+}
+
+.h1-title, .personal-information .contact h1, .personal-information .education h1, .project h1 {
+  text-transform: uppercase;
+  color: #136223;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+
+.personal-information {
+  display: flex;
+  background-color: #FFBA00;
+  padding: 12px 146px 50px;
+}
+
+.personal-information .contact {
+  flex: 1;
+}
+
+.personal-information .contact h1 {
+  margin-bottom: 16px;
+}
+
+.personal-information .contact ul li {
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+.personal-information .contact ul li i {
+  margin-right: 8px;
+}
+
+.personal-information .contact ul li p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.personal-information .contact ul li p i {
+  width: 22px;
+}
+
+.personal-information .university-h2, .personal-information .education .university h2,
+.personal-information .education .senior_high_school h2,
+.personal-information .education .junior_high_school h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.personal-information .university-p, .personal-information .education .university p,
+.personal-information .education .senior_high_school p,
+.personal-information .education .junior_high_school p {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  padding-bottom: 16px;
+}
+
+.personal-information .education {
+  flex: 1;
+}
+
+.personal-information .education h1 {
+  margin-bottom: 16px;
+}
+
+.project {
+  padding: 30px 146px 0;
+}
+
+.project ul li {
+  list-style: none;
+  display: flex;
+  padding: 30px 0;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.project-img {
+  margin-right: 20px;
+}
+
+.project-description h1 {
+  font-size: 30px;
+  font-family: "Heebo", sans-serif;
+  color: #21243D;
+  text-transform: capitalize;
+}
+
+.project-description h2 .year {
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  background-color: #142850;
+  border-radius: 50px;
+  padding: 0 10px;
+  margin-right: 16px;
+}
+
+.project-description h2 .programming-language {
+  color: #8695A4;
+  font-size: 20px;
+  font-family: "Heebo", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.project-description p {
+  font-size: 16px;
+  font-family: "Heebo", sans-serif;
+  color: #21243D;
+  font-weight: 400;
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+  padding-top: 134px;
+}
+
+footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px 28px;
+}
+
+footer ul li i {
+  font-size: 30px;
+}
+
+footer p {
+  color: #21243D;
+  font-size: 14px;
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+}
+/*# sourceMappingURL=main.css.map */
