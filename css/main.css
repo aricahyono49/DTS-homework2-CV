@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  margin: 208px 146px 58px;
+  text-align: justify;
+}
+
+.jumbotron {
+  display: flex;
+  padding-bottom: 60px;
+}
+
+.jumbotron .jumbotron-img {
+  flex: 1;
+  text-align: center;
+}
+
+.jumbotron .jumbotron-img img {
+  border-radius: 100%;
+  width: 243px;
+  height: 243px;
+  box-shadow: -4px 10px 1px #e0e0e0;
+}
+
+.jumbotron .jumbotron-caption {
+  flex: 2;
+}
+
+.jumbotron .jumbotron-caption h1 {
+  color: #21243D;
+  font-weight: bold;
+  font-size: 44px;
+  margin-top: 12px;
+  font-family: "Heebo", sans-serif;
+}
+
+.jumbotron .jumbotron-caption h2 {
+  color: #21243D;
+  font-weight: bold;
+  font-size: 44px;
+  font-family: "Heebo", sans-serif;
+}
+
+.jumbotron .jumbotron-caption p {
+  margin-top: 16px;
+  padding-right: 10%;
+  font-family: "Heebo", sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
