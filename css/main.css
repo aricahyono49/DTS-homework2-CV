@@ -9,6 +9,10 @@ main {
   text-align: justify;
 }
 
+img {
+  object-fit: cover;
+}
+
 .jumbotron {
   display: flex;
   padding: 0 146px 60px;
