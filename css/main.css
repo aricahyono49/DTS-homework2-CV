@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-main {
+body {
   margin: 208px 0px 58px;
   text-align: justify;
 }
@@ -167,5 +167,27 @@ img {
   color: #21243D;
   font-weight: 400;
   text-align: justify;
+}
+
+footer {
+  text-align: center;
+  padding-top: 134px;
+}
+
+footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px 28px;
+}
+
+footer ul li i {
+  font-size: 30px;
+}
+
+footer p {
+  color: #21243D;
+  font-size: 14px;
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
 }
 /*# sourceMappingURL=main.css.map */
