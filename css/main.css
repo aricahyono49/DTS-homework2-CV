@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Inter:wght@400;600&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -49,5 +49,59 @@ main {
   margin-top: 16px;
   padding-right: 10%;
   font-family: "Heebo", sans-serif;
+}
+
+.h1-title, .personal-information .contact h1, .personal-information .education h1 {
+  text-transform: uppercase;
+  color: #136223;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 16px;
+}
+
+.personal-information {
+  display: flex;
+  background-color: #FFBA00;
+  padding: 12px 0 50px;
+}
+
+.personal-information .contact {
+  flex: 1;
+}
+
+.personal-information .contact ul li {
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+.personal-information .contact ul li i {
+  margin-right: 8px;
+}
+
+.personal-information .contact ul li p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.personal-information .university-h2, .personal-information .education .university h2,
+.personal-information .education .senior_high_school h2,
+.personal-information .education .junior_high_school h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.personal-information .university-p, .personal-information .education .university p,
+.personal-information .education .senior_high_school p,
+.personal-information .education .junior_high_school p {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  padding-bottom: 16px;
+}
+
+.personal-information .education {
+  flex: 1;
 }
 /*# sourceMappingURL=main.css.map */
