@@ -5,13 +5,13 @@
 }
 
 main {
-  margin: 208px 146px 58px;
+  margin: 208px 0px 58px;
   text-align: justify;
 }
 
 .jumbotron {
   display: flex;
-  padding-bottom: 60px;
+  padding: 0 146px 60px;
 }
 
 .jumbotron .jumbotron-img {
@@ -62,7 +62,7 @@ main {
 .personal-information {
   display: flex;
   background-color: #FFBA00;
-  padding: 12px 0 50px;
+  padding: 12px 146px 50px;
 }
 
 .personal-information .contact {
